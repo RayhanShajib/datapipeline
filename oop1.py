@@ -11,15 +11,18 @@ Create a new person called Matti and assign personal details
 
 '''
 
-def personal_details():
-    firstName = "Matti"
-    lastName = "Rayhan"
-    age = 22
-    occupation = "student"
+class Person:
+    def __init__(self, firstName, lastName, age, occupation):
+        self.firstName = firstName
+        self.lastName = lastName
+        self.age = age
+        self.occupation = occupation
 
-    print("First Name:", firstName)
-    print("Last Name:", lastName)
-    print("Age:", age)
-    print("Occupation:", occupation)
+    def person_details(self):
+        print("First Name:", self.firstName)
+        print("Last Name:", self.lastName)
+        print("Age:", self.age)
+        print("Occupation:", self.occupation)
 
-personal_details()
+matti = Person("Matti", "Rayhan", 22, "student")
+matti.person_details()
