@@ -1,4 +1,3 @@
-# from sodabottle import file class name (sodaBottle)
 from sodaBottle import SodaBottle
 
 
