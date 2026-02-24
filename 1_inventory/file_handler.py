@@ -13,7 +13,7 @@ class FileHandler:
                 rows.append(row.strip('\n'))
                 row = filehandle.readline()
             filehandle.close()
-        except Exception:
+        except FileNotFoundError:
             print("File not found")
             exit(-1)
         return rows
