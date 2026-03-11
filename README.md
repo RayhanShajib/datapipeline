@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-# datapipeline
-# 4 Pillars
-
-OOP Basic Pillars
-
-1. Inheritance
-2. Abstraction
-3. Polymorphism
-4. Encapsulation
-
-
-=======
 # Data Pipeline
 
 A collection of Python examples and exercises demonstrating object-oriented programming (OOP), data handling, serialization, deserialization, and various programming concepts. This repository serves as a learning resource for building data pipelines and understanding Python fundamentals.
@@ -163,4 +150,3 @@ No external packages are required.
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
->>>>>>> a87e64e (readme.md file recreated)

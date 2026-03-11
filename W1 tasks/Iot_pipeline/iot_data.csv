@@ -1,0 +1,4 @@
+type,device_id,location,data,timestamp
+TemperatureSensor,TS-001,Warehouse-A,23.5°C,2024-06-01 08:00:00
+HumiditySensor,HS-002,Cold-Storage,45%,2024-06-01 08:03:00
+MotionSensor,MS-001,Entrance-Gate,Motion Detected,2024-06-01 08:04:00
