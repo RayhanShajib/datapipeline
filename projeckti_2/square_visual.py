@@ -4,6 +4,8 @@ from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import tkinter as tk
 
 # --- Rotation Matrices ---
+
+
 def rotation_x(theta):
     return np.array([
         [1, 0, 0],
@@ -11,12 +13,14 @@ def rotation_x(theta):
         [0, np.sin(theta),  np.cos(theta)]
     ])
 
+
 def rotation_y(theta):
     return np.array([
-        [ np.cos(theta), 0, np.sin(theta)],
+        [np.cos(theta), 0, np.sin(theta)],
         [0, 1, 0],
         [-np.sin(theta), 0, np.cos(theta)]
     ])
+
 
 def rotation_z(theta):
     return np.array([
@@ -25,15 +29,18 @@ def rotation_z(theta):
         [0, 0, 1]
     ])
 
+
 # --- Square (in XY plane) ---
 square = np.array([
-    [-0.5, -0.5, 0],
-    [ 0.5, -0.5, 0],
-    [ 0.5,  0.5, 0],
-    [-0.5,  0.5, 0]
+    [-0.3, -0.3, 0],
+    [0.3, -0.3, 0],
+    [0.3,  0.3, 0],
+    [-0.3,  0.3, 0]
 ])
 
 # --- Update Plot ---
+
+
 def update(val=None):
     # Get slider values (degrees → radians)
     x = np.radians(x_slider.get())
@@ -53,7 +60,7 @@ def update(val=None):
 
     # Clear and redraw
     ax.clear()
-    ax.plot(pts[:,0], pts[:,1], pts[:,2], 'g--o')
+    ax.plot(pts[:, 0], pts[:, 1], pts[:, 2], 'g--o')
 
     # Set axes limits
     ax.set_xlim([-1, 1])
@@ -66,12 +73,13 @@ def update(val=None):
     ax.set_title("Rotate The Square")
     canvas.draw()
 
+
 # --- Tkinter Window ---
 root = tk.Tk()
 root.title("Rotate The Square")
 
 # --- Matplotlib Figure ---
-fig = plt.figure(figsize=(5,5))
+fig = plt.figure(figsize=(3, 3))
 ax = fig.add_subplot(111, projection='3d')
 
 canvas = FigureCanvasTkAgg(fig, master=root)

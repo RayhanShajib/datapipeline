@@ -27,14 +27,14 @@ def rotation_z(theta):
 
 # --- Cube vertices ---
 cube = np.array([
-    [-0.5, -0.5, -0.5],
-    [ 0.5, -0.5, -0.5],
-    [ 0.5,  0.5, -0.5],
-    [-0.5,  0.5, -0.5],
-    [-0.5, -0.5,  0.5],
-    [ 0.5, -0.5,  0.5],
-    [ 0.5,  0.5,  0.5],
-    [-0.5,  0.5,  0.5]
+    [-0.2, -0.2, -0.2],
+    [ 0.2, -0.2, -0.2],
+    [ 0.2,  0.2, -0.2],
+    [-0.2,  0.2, -0.2],
+    [-0.2, -0.2,  0.2],
+    [ 0.2, -0.2,  0.2],
+    [ 0.2,  0.2,  0.2],
+    [-0.2,  0.2,  0.2]
 ])
 
 # --- Cube edges (pairs of vertex indices) ---
@@ -84,7 +84,7 @@ def update(val=None):
 root = tk.Tk()
 root.title("3D Cube Rotation")
 
-fig = plt.figure(figsize=(5,5))
+fig = plt.figure(figsize=(3,3))
 ax = fig.add_subplot(111, projection='3d')
 
 canvas = FigureCanvasTkAgg(fig, master=root)
