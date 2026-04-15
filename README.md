@@ -20,7 +20,7 @@ A collection of Python examples and exercises demonstrating object-oriented prog
 ├── [1_inventory](https://github.com/RayhanShajib/datapipeline/tree/main/1_inventory) <br>
 ├── [2_deserialization](https://github.com/RayhanShajib/datapipeline/tree/main/2_deserialization) <br>
 ├── [3_serialization](https://github.com/RayhanShajib/datapipeline/tree/main/3_serialization) <br>
-├── [W1 tasks](https://github.com/RayhanShajib/datapipeline/tree/main/W1%20tasks)
+├── [W1 tasks](https://github.com/RayhanShajib/datapipeline/tree/main/W1%20tasks) <br>
 ├── Projeckti_1/        <br>
 │   ├── [task_manager](https://github.com/RayhanShajib/datapipeline/tree/main/task_manager) <br>
 ├── [Projeckti_2](https://github.com/RayhanShajib/datapipeline/tree/main/projeckti_2) <br>
