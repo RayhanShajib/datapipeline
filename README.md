@@ -17,16 +17,6 @@ A collection of Python examples and exercises demonstrating object-oriented prog
 ├── [WO tasks](https://github.com/RayhanShajib/datapipeline/tree/main/WO%20tasks) <br>
 
 
-
-## Features
-
-- **Object-Oriented Programming Examples**: Basic classes like Person, Car, User, and SodaBottle
-- **Data Handling**: File reading, CSV processing, inventory management
-- **Serialization/Deserialization**: Converting objects to/from CSV format
-- **Menu-Driven Applications**: Interactive console-based menus
-- **Utility Classes**: Temperature converter, coin acceptor, counter
-- **Data Pipeline Concepts**: Reading, processing, and writing data
-
 ## Project Structure
 
 ```
