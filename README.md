@@ -13,11 +13,11 @@ A collection of Python examples and exercises demonstrating object-oriented prog
 
 ## datapipeline/
 |-- [constraction_example.py](https://github.com/RayhanShajib/datapipeline/blob/main/constraction_example.py) <br>
-|-- [menu_driven.py](https://github.com/RayhanShajib/datapipeline/blob/main/menu_driven.py)
-├── - [oop1.py](https://github.com/RayhanShajib/datapipeline/blob/main/oop1.py)
-├── [oop2.py](https://github.com/RayhanShajib/datapipeline/blob/main/oop2.py)
-├── [sodaBottle.py](https://github.com/RayhanShajib/datapipeline/blob/main/sodaBottle.py)
-├── [1_inventory](https://github.com/RayhanShajib/datapipeline/tree/main/1_inventory)
+|-- [menu_driven.py](https://github.com/RayhanShajib/datapipeline/blob/main/menu_driven.py) <br>
+├── - [oop1.py](https://github.com/RayhanShajib/datapipeline/blob/main/oop1.py) <br>
+├── [oop2.py](https://github.com/RayhanShajib/datapipeline/blob/main/oop2.py) <br>
+├── [sodaBottle.py](https://github.com/RayhanShajib/datapipeline/blob/main/sodaBottle.py) <br>
+├── [1_inventory](https://github.com/RayhanShajib/datapipeline/tree/main/1_inventory) <br>
 ├── 2_deserialization/               # CSV deserialization to objects
 │   ├── file_handler.py
 │   ├── inventory.csv
