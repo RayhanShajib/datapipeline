@@ -65,7 +65,31 @@ datapipeline/
     │   ├── main.py
     │   └── temperature_converter.py
 ```
-
+datapipeline/
+├── README.md
+├── constraction_example.py          # [Class vs instance attributes example](https://github.com/RayhanShajib/datapipeline/blob/main/datapipeline/constraction_example.py)
+├── menu_driven.py                   # [Menu-driven application example](https://github.com/RayhanShajib/datapipeline/blob/main/datapipeline/menu_driven.py)
+├── oop1.py                          # [Basic OOP with Person class](https://github.com/RayhanShajib/datapipeline/blob/main/datapipeline/oop1.py)
+├── oop2.py                          # [Using SodaBottle class](https://github.com/RayhanShajib/datapipeline/blob/main/datapipeline/oop2.py)
+├── sodaBottle.py                    # [SodaBottle class implementation](https://github.com/RayhanShajib/datapipeline/blob/main/datapipeline/sodaBottle.py)
+├── 1_inventory/                     # [Basic inventory management](https://github.com/RayhanShajib/datapipeline/tree/main/datapipeline/1_inventory)
+├── 2_deserialization/                # [CSV deserialization to objects](https://github.com/RayhanShajib/datapipeline/tree/main/datapipeline/2_deserialization)
+├── 3_serialization/                 # [Object serialization to CSV](https://github.com/RayhanShajib/datapipeline/tree/main/datapipeline/3_serialization)
+├── car/                             # [Car class example](https://github.com/RayhanShajib/datapipeline/tree/main/datapipeline/car)
+├── user/                            # [User class example](https://github.com/RayhanShajib/datapipeline/tree/main/datapipeline/user)
+└── WO tasks/                        # [Work order tasks](https://github.com/RayhanShajib/datapipeline/tree/main/datapipeline/WO%20tasks)
+    ├── coinAcceptor/
+    │   ├── [coin_acceptor.py](https://github.com/RayhanShajib/datapipeline/blob/main/datapipeline/WO%20tasks/coinAcceptor/coin_acceptor.py)
+    │   └── [main.py](https://github.com/RayhanShajib/datapipeline/blob/main/datapipeline/WO%20tasks/coinAcceptor/main.py)
+    ├── coinAcceptorCLI/
+    │   ├── [coin_acceptor.py](https://github.com/RayhanShajib/datapipeline/blob/main/datapipeline/WO%20tasks/coinAcceptorCLI/coin_acceptor.py)
+    │   └── [main.py](https://github.com/RayhanShajib/datapipeline/blob/main/datapipeline/WO%20tasks/coinAcceptorCLI/main.py)
+    ├── counter/
+    │   ├── [counter.py](https://github.com/RayhanShajib/datapipeline/blob/main/datapipeline/WO%20tasks/counter/counter.py)
+    │   └── [main.py](https://github.com/RayhanShajib/datapipeline/blob/main/datapipeline/WO%20tasks/counter/main.py)
+    ├── temperatureConverter/
+    │   ├── [main.py](https://github.com/RayhanShajib/datapipeline/blob/main/datapipeline/WO%20tasks/temperatureConverter/main.py)
+    │   └── [temperature_converter.py](https://github.com/RayhanShajib/datapipeline/blob/main/datapipeline/WO%20tasks/temperatureConverter/temperature_converter.py)
 ## Installation
 
 1. Clone the repository:
