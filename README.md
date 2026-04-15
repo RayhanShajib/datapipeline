@@ -4,9 +4,6 @@ A collection of Python examples and exercises demonstrating object-oriented prog
 
 ## Table of Contents
 
-- [Features](#features)
-- [Project Structure](#project-structure)
-- ## datapipeline/
 |-- [menu_driven.py](https://github.com/RayhanShajib/datapipeline/blob/main/menu_driven.py) <br>
 ├── [oop1.py](https://github.com/RayhanShajib/datapipeline/blob/main/oop1.py) <br>
 ├── [oop2.py](https://github.com/RayhanShajib/datapipeline/blob/main/oop2.py) <br>
@@ -18,10 +15,8 @@ A collection of Python examples and exercises demonstrating object-oriented prog
 ├── [Projeckti_1](https://github.com/RayhanShajib/datapipeline/tree/main/task_manager) <br>
 ├── [Projeckti_2](https://github.com/RayhanShajib/datapipeline/tree/main/projeckti_2) <br>
 ├── [WO tasks](https://github.com/RayhanShajib/datapipeline/tree/main/WO%20tasks) <br>
-- [constraction_example.py](https://github.com/RayhanShajib/datapipeline/blob/main/constraction_example.py)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Dependencies](#dependencies)
+
+
 
 ## Features
 
