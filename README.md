@@ -65,31 +65,7 @@ datapipeline/
     │   ├── main.py
     │   └── temperature_converter.py
 ```
-datapipeline/
-├── README.md
-├── constraction_example.py          # [Class vs instance attributes example](https://github.com/RayhanShajib/datapipeline/blob/main/datapipeline/constraction_example.py)
-├── menu_driven.py                   # [Menu-driven application example](https://github.com/RayhanShajib/datapipeline/blob/main/datapipeline/menu_driven.py)
-├── oop1.py                          # [Basic OOP with Person class](https://github.com/RayhanShajib/datapipeline/blob/main/datapipeline/oop1.py)
-├── oop2.py                          # [Using SodaBottle class](https://github.com/RayhanShajib/datapipeline/blob/main/datapipeline/oop2.py)
-├── sodaBottle.py                    # [SodaBottle class implementation](https://github.com/RayhanShajib/datapipeline/blob/main/datapipeline/sodaBottle.py)
-├── 1_inventory/                     # [Basic inventory management](https://github.com/RayhanShajib/datapipeline/tree/main/datapipeline/1_inventory)
-├── 2_deserialization/                # [CSV deserialization to objects](https://github.com/RayhanShajib/datapipeline/tree/main/datapipeline/2_deserialization)
-├── 3_serialization/                 # [Object serialization to CSV](https://github.com/RayhanShajib/datapipeline/tree/main/datapipeline/3_serialization)
-├── car/                             # [Car class example](https://github.com/RayhanShajib/datapipeline/tree/main/datapipeline/car)
-├── user/                            # [User class example](https://github.com/RayhanShajib/datapipeline/tree/main/datapipeline/user)
-└── WO tasks/                        # [Work order tasks](https://github.com/RayhanShajib/datapipeline/tree/main/datapipeline/WO%20tasks)
-    ├── coinAcceptor/
-    │   ├── [coin_acceptor.py](https://github.com/RayhanShajib/datapipeline/blob/main/datapipeline/WO%20tasks/coinAcceptor/coin_acceptor.py)
-    │   └── [main.py](https://github.com/RayhanShajib/datapipeline/blob/main/datapipeline/WO%20tasks/coinAcceptor/main.py)
-    ├── coinAcceptorCLI/
-    │   ├── [coin_acceptor.py](https://github.com/RayhanShajib/datapipeline/blob/main/datapipeline/WO%20tasks/coinAcceptorCLI/coin_acceptor.py)
-    │   └── [main.py](https://github.com/RayhanShajib/datapipeline/blob/main/datapipeline/WO%20tasks/coinAcceptorCLI/main.py)
-    ├── counter/
-    │   ├── [counter.py](https://github.com/RayhanShajib/datapipeline/blob/main/datapipeline/WO%20tasks/counter/counter.py)
-    │   └── [main.py](https://github.com/RayhanShajib/datapipeline/blob/main/datapipeline/WO%20tasks/counter/main.py)
-    ├── temperatureConverter/
-    │   ├── [main.py](https://github.com/RayhanShajib/datapipeline/blob/main/datapipeline/WO%20tasks/temperatureConverter/main.py)
-    │   └── [temperature_converter.py](https://github.com/RayhanShajib/datapipeline/blob/main/datapipeline/WO%20tasks/temperatureConverter/temperature_converter.py)
+
 ## Installation
 
 1. Clone the repository:
@@ -114,46 +90,6 @@ Each module can be run independently. Navigate to the desired directory and exec
 python main.py
 ```
 
-### Specific Examples
-
-#### Menu-Driven Application
-
-```bash
-python menu_driven.py
-```
-
-Displays a simple menu with options to print "Hello, World!" or exit.
-
-#### OOP Examples
-
-- `oop1.py`: Creates and displays a Person object
-- `oop2.py`: Demonstrates SodaBottle class usage
-- `constraction_example.py`: Shows class vs instance attributes
-
-#### Data Pipeline Examples
-
-1. **Basic Inventory** (`1_inventory/`):
-   - Reads inventory from CSV
-   - Displays items
-
-2. **Deserialization** (`2_deserialization/`):
-   - Reads CSV data
-   - Creates Item objects from CSV rows
-   - Displays item prices
-
-3. **Serialization** (`3_serialization/`):
-   - Reads CSV data
-   - Deserializes to Item objects
-   - Can serialize objects back to CSV format
-
-#### Utility Classes
-
-- **Car** (`car/`): Basic car simulation
-- **User** (`user/`): User management
-- **Temperature Converter** (`WO tasks/temperatureConverter/`): Convert between Celsius, Fahrenheit, and Kelvin
-- **Coin Acceptor** (`WO tasks/coinAcceptor/`): Simulate coin insertion and acceptance
-- **Counter** (`WO tasks/counter/`): Simple counter functionality
-
 ### File Structure Details
 
 - `file_handler.py`: Utility class for reading files
@@ -163,14 +99,6 @@ Displays a simple menu with options to print "Hello, World!" or exit.
 ## Dependencies
 
 - Python 3.8+
-- Built-in modules: `dataclasses`, `os`, `typing`
+- Built-in modules: `dataclasses`, `os`, `typing.`
 
 No external packages are required.
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
