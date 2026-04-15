@@ -5,13 +5,48 @@ A collection of Python examples and exercises demonstrating object-oriented prog
 ## Table of Contents
 
 - [Features](#features)
-- [constraction_example.py](https://github.com/RayhanShajib/datapipeline/blob/main/constraction_example.py)
 - [Project Structure](#project-structure)
+- [constraction_example.py](https://github.com/RayhanShajib/datapipeline/blob/main/constraction_example.py)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Dependencies](#dependencies)
-- [Contributing](#contributing)
-- [License](#license)
+
+datapipeline/
+├── [constraction_example.py](https://github.com/RayhanShajib/datapipeline/blob/main/constraction_example.py)
+├── [menu_driven.py](https://github.com/RayhanShajib/datapipeline/blob/main/menu_driven.py)
+├── [oop1.py](https://github.com/RayhanShajib/datapipeline/blob/main/oop1.py)
+├── [oop2.py](https://github.com/RayhanShajib/datapipeline/blob/main/oop2.py)
+├── [sodaBottle.py](https://github.com/RayhanShajib/datapipeline/blob/main/sodaBottle.py)
+├── [1_inventory](https://github.com/RayhanShajib/datapipeline/tree/main/1_inventory)
+├── 2_deserialization/               # CSV deserialization to objects
+│   ├── file_handler.py
+│   ├── inventory.csv
+│   ├── item.py
+│   └── main.py
+├── 3_serialization/                 # Object serialization to CSV
+│   ├── file_handler.py
+│   ├── inventory.csv
+│   ├── Item.py
+│   └── main.py
+├── car/                             # Car class example
+│   ├── car.py
+│   └── main.py
+├── user/                            # User class example
+│   ├── main.py
+│   └── user.py
+└── WO tasks/                        # Work order tasks
+    ├── coinAcceptor/
+    │   ├── coin_acceptor.py
+    │   └── main.py
+    ├── coinAcceptorCLI/
+    │   ├── coin_acceptor.py
+    │   └── main.py
+    ├── counter/
+    │   ├── counter.py
+    │   └── main.py
+    ├── temperatureConverter/
+    │   ├── main.py
+    │   └── temperature_converter.py
 
 ## Features
 
